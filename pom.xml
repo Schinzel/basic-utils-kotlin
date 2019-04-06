@@ -46,6 +46,12 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <!-- Google's comprehensive utility library -->
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>27.0.1-jre</version>
+        </dependency>
+        <dependency>
             <!-- Fluent assertions for more readable tests
             http://joel-costigliola.github.io/assertj/-->
             <groupId>org.assertj</groupId>
