@@ -1,10 +1,10 @@
 package io.schinzel.basicutilskotlin
 
-infix fun <T> Boolean.then(param: T): T? = if (this) param else null
-infix fun <T> Boolean.q(param: T): T? = if (this) param else null
-infix fun <T> Boolean.t(param: T): T? = if (this) param else null
-infix fun <T> Boolean.l(param: T): T? = if (this) param else null
-infix fun <T> Boolean.I(param: T): T? = if (this) param else null
+private infix fun <T> Boolean.then(param: T): T? = if (this) param else null
+private infix fun <T> Boolean.q(param: T): T? = if (this) param else null
+private infix fun <T> Boolean.t(param: T): T? = if (this) param else null
+private infix fun <T> Boolean.l(param: T): T? = if (this) param else null
+private infix fun <T> Boolean.I(param: T): T? = if (this) param else null
 
 fun main(args: Array<String>) {
     val apa1 = (5 > 6) then "yes" ?: "no"

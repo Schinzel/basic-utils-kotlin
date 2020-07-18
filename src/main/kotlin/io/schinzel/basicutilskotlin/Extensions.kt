@@ -18,6 +18,14 @@ fun <R> R.println(): R = this.apply { println(this) }
 fun <R> R.print(): R = this.apply { print(this) }
 
 
+fun <R> R.printlnWithPrefix(prefix: String): R = this.apply { println("$prefix: $this") }
+
+
+fun <R> R.toList(): R = this.apply { listOf(this) }
+
+
+fun <R> R.toMutableList(): R = this.apply { mutableListOf(this) }
+
 /**
  * @param other String to compare to this
  * @return True if this string matches case insensitive the argument string. Else false.
