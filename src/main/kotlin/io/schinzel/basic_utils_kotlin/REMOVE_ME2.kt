@@ -1,4 +1,4 @@
-package io.schinzel.basicutilskotlin
+package io.schinzel.basic_utils_kotlin
 
 import com.google.common.base.CaseFormat
 import java.util.*

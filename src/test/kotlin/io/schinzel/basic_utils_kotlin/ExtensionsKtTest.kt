@@ -1,4 +1,4 @@
-package io.schinzel.basicutilskotlin
+package io.schinzel.basic_utils_kotlin
 
 import io.schinzel.basicutils.RandomUtil
 import org.assertj.core.api.Assertions.*

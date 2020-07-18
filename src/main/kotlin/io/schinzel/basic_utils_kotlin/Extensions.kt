@@ -1,4 +1,6 @@
-package io.schinzel.basicutilskotlin
+@file:Suppress("unused")
+
+package io.schinzel.basic_utils_kotlin
 
 import io.schinzel.basicutils.file.FileWriter
 
@@ -21,10 +23,10 @@ fun <R> R.print(): R = this.apply { print(this) }
 fun <R> R.printlnWithPrefix(prefix: String): R = this.apply { println("$prefix: $this") }
 
 
-fun <R> R.toList(): R = this.apply { listOf(this) }
+fun <R> R.toList(): List<R> = listOf(this)
 
 
-fun <R> R.toMutableList(): R = this.apply { mutableListOf(this) }
+fun <R> R.toMutableList(): List<R> = mutableListOf(this)
 
 /**
  * @param other String to compare to this

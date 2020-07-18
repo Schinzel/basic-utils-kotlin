@@ -1,4 +1,4 @@
-package io.schinzel.basicutilskotlin
+package io.schinzel.basic_utils_kotlin
 
 private infix fun <T> Boolean.then(param: T): T? = if (this) param else null
 private infix fun <T> Boolean.q(param: T): T? = if (this) param else null
