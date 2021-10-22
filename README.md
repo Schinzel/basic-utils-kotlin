@@ -6,7 +6,7 @@ Basic utilities that I use in every Kotlin project
 <repositories>
 	<repository>
 		<id>maven-repo.schinzel.io</id>
-		<url>http://maven-repo.schinzel.io/release</url>
+		<url>https://s3-eu-west-1.amazonaws.com/maven-repo.schinzel.io/release</url>
 	</repository>
 </repositories>    
 ```
@@ -16,7 +16,7 @@ Basic utilities that I use in every Kotlin project
 	<dependency>
         <groupId>io.schinzel</groupId>
         <artifactId>basic-utils-kotlin</artifactId>
-        <version>0.91</version>
+        <version>0.92</version>
 	</dependency>
 </dependencies>    
 ```
@@ -24,6 +24,9 @@ Basic utilities that I use in every Kotlin project
 
 
 ## Version history
+### 0.92
+- Updated dependencies
+
 ### 0.91
 _2020-07-18_
 - Initial release
