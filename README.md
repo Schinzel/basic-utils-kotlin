@@ -24,7 +24,7 @@ Basic utilities that I use in every Kotlin project
 
 
 ## Version history
-### 0.92
+### 0.9.2
 - Updated dependencies
 
 ### 0.91
