@@ -16,7 +16,7 @@ Basic utilities that I use in every Kotlin project
 	<dependency>
         <groupId>io.schinzel</groupId>
         <artifactId>basic-utils-kotlin</artifactId>
-        <version>0.92</version>
+        <version>0.9.3</version>
 	</dependency>
 </dependencies>    
 ```
@@ -24,6 +24,10 @@ Basic utilities that I use in every Kotlin project
 
 
 ## Version history
+### 0.9.3
+_2022-06-01_
+- Updated dependencies
+
 ### 0.9.2
 - Updated dependencies
 
