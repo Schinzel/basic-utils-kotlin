@@ -6,7 +6,7 @@
 
     <groupId>io.schinzel</groupId>
     <artifactId>basic-utils-kotlin</artifactId>
-    <version>0.9.4</version>
+    <version>0.9.5</version>
 
     <properties>
         <kotlin.version>1.8.0</kotlin.version>
@@ -43,7 +43,7 @@
             <!-- Utility dependency, used among other things to read .env / Configuration -->
             <groupId>io.schinzel</groupId>
             <artifactId>basic-utils</artifactId>
-            <version>1.6.3</version>
+            <version>1.6.4</version>
         </dependency>
         <!-- TEST -->
         <dependency>
